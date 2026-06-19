@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .nav-list-footer {
+  font-size: 1rem;
+  display: flex; /* se van a poner en fila, en lugar de aparecer uno abajo de otro */
+  gap: 0.5rem; /* espacio entre los elementos*/
+}
+
+.logo-whatsapp {
+  width: 50px;
+  height: auto;
+  margin: 1rem;
+}
+
+.logo-instagram {
+  width: 35px;
+  height: auto;
+  margin: 1rem;
+}

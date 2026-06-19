@@ -1,0 +1,8 @@
+.products-container {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap; /*permite que los elementos hijos (flex items) se ajusten en varias líneas si no caben en una sola fila (o columna)*/
+  gap: 2rem;
+}
